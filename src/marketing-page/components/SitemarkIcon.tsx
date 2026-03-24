@@ -102,8 +102,9 @@ export function DelhiFireAlarmsIcon0() {
 
 
 export function DelhiFireAlarmsIcon() {
+  const base = import.meta.env.BASE_URL; // This automatically gets "/delhi-fire-alarms/"
   return (
-    <Box display={"flex"} alignItems={"center"} gap={"5px"} sx={{cursor: "pointer"}} onClick={()=>window.location.href="/"}>
+    <Box display={"flex"} alignItems={"center"} gap={"5px"} sx={{cursor: "pointer"}} onClick={()=>window.location.href=base}>
       <WhatshotIcon sx={{color:'primary.main'}} />
       <Typography fontWeight={"bold"} variant="h6" color='primary.main'>DelhiFireAlarms</Typography>
     </Box>

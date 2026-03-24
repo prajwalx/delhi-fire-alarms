@@ -14,10 +14,11 @@ import Typography from '@mui/material/Typography';
 import SitemarkIcon from './SitemarkIcon';
 
 function Copyright() {
+  const base = import.meta.env.BASE_URL; // This automatically gets "/delhi-fire-alarms/"
   return (
     <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
       {'Copyright © '}
-      <Link color="text.secondary" href="/">
+      <Link color="text.secondary" href={base}>
         DelhiFireAlarms
       </Link>
       &nbsp;
@@ -128,7 +129,7 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Company
           </Typography>
-          <Link color="text.secondary" variant="body2" href="/">
+          <Link color="text.secondary" variant="body2" href={base}>
             About us
           </Link>
           {/* <Link color="text.secondary" variant="body2" href="#">
