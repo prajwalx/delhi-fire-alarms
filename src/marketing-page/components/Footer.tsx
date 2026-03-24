@@ -27,6 +27,7 @@ function Copyright() {
 }
 
 export default function Footer() {
+  const base = import.meta.env.BASE_URL; // This automatically gets "/delhi-fire-alarms/"
   return (
     <Container
       sx={{
@@ -147,7 +148,7 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Legal
           </Typography>
-          <Link color="text.secondary" variant="body2" href="Terms.html">
+          <Link color="text.secondary" variant="body2" href={`${base}Terms.html`}>
             Terms
           </Link>
           <Link color="text.secondary" variant="body2" href="#contact">
@@ -172,7 +173,7 @@ export default function Footer() {
           <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography> */}
-          <NavLink color="text.secondary" to="Terms.html" target='_blank'>
+          <NavLink color="text.secondary" to={`${base}Terms.html`} target='_blank'>
             Terms of Service
           </NavLink>
           <Copyright />

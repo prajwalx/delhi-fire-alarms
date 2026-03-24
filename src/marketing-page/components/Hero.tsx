@@ -38,6 +38,7 @@ const StyledBox = styled('div')(({ theme }) => ({
 
 export default function Hero() {
   const [mail, setMail] = React.useState("");
+  const base = import.meta.env.BASE_URL; // This automatically gets "/delhi-fire-alarms/"
   return (
     <Box
       id="hero"
@@ -153,7 +154,7 @@ export default function Hero() {
             sx={{ textAlign: 'center' }}
           >
             By clicking &quot;Start now&quot; you agree to our&nbsp;
-            <Link to={"Terms.html"} target="_blank" 
+            <Link to={`${base}Terms.html`} target="_blank" 
   rel="noopener noreferrer"  color="primary">
               Terms & Conditions
             </Link>
