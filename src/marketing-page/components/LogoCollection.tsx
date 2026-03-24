@@ -4,19 +4,19 @@ import Grid from '@mui/material/Grid';
 import { useColorScheme } from '@mui/material/styles';
 
 const darkModeLogos = [
-  '/lan-eng.png',
-  '/ILJIN-Electronics-Logo.png',
-  '/bajaj.avif',
-  '/flash-logo.png',
+  'lan-eng.png',
+  'ILJIN-Electronics-Logo.png',
+  'bajaj.avif',
+  'flash-logo.png',
   // 'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560a09d1f6337b1dfed14ab_colorado-white.svg',
   // 'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5caa77bf7d69fb78792e_Ankara-white.svg',
 ];
 
 const lightModeLogos = [
-  '/lan-eng.png',
-  '/ILJIN-Electronics-Logo.png',
-  '/bajaj.avif',
-  '/flash-logo.png',
+  'lan-eng.png',
+  'ILJIN-Electronics-Logo.png',
+  'bajaj.avif',
+  'flash-logo.png',
   // 'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560a0990f3717787fd49245_colorado-black.svg',
   // 'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5ca4e548b0deb1041c33_Ankara-black.svg',
 ];

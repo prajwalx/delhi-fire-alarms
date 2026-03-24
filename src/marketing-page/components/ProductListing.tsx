@@ -1,4 +1,3 @@
-import * as React from 'react';
 import {
   Box,
   Button,
@@ -24,28 +23,28 @@ const productData = [
     subtitle: 'Manual Call Point',
     description: 'Reliable manual call point designed for internal alarm triggering in commercial environments.',
     specs: ['ABS Plastic Body', 'Flush / Surface Mount', '"Break Glass" or "Push"'],
-    image: '/mcp.png', // Replace with your local assets
+    image: 'mcp.png', // Replace with your local assets
   },
   {
     title: 'Resettable MCP',
     subtitle: 'Key-Operated Manual Point',
     description: 'High-efficiency reusable design. Eliminates the cost and mess of glass replacement.',
     specs: ['Reusable Design', 'LED Indicator Support', 'Ideal for Schools/Hospitals'],
-    image: '/resettable-mcp.png',
+    image: 'resettable-mcp.png',
   },
   {
     title: 'Smoke Detector',
     subtitle: 'Photoelectric Sensor',
     description: 'High-sensitivity detection technology designed to sense smoke early and reduce false alarms.',
     specs: ['360° Visibility LED', 'Dual-Chamber Sensing', 'Low Standby Current'],
-    image: '/smoke-sensor.png',
+    image: 'smoke-sensor.png',
   },
   {
     title: 'Exit Steel Plate',
     subtitle: 'Emergency Hardware',
     description: 'Heavy-duty emergency exit signage built to withstand industrial wear and tear.',
     specs: ['Stainless Steel (Grade 304)', 'Glow-in-the-dark / Reflective', 'Weatherproof Finish'],
-    image: '/exit-plate.png',
+    image: 'exit-plate.png',
   },
 ];
 

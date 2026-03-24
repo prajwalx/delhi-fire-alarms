@@ -13,7 +13,7 @@ import {
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import BusinessIcon from "@mui/icons-material/Business";
+// import BusinessIcon from "@mui/icons-material/Business";
 
 export default function ContactSection() {
   const handleWhatsAppClick = () => {
@@ -24,8 +24,6 @@ export default function ContactSection() {
     );
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
-
-  const handleSubmitRequest = () => {};
 
   const [name, setName] = React.useState("");
   const [phoneNumber, setPhoneNumber] = React.useState("");

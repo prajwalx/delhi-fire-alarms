@@ -1,16 +1,16 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import InputLabel from '@mui/material/InputLabel';
 import Link from '@mui/material/Link';
 import { Link as NavLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/X';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import TwitterIcon from '@mui/icons-material/X';
 import SitemarkIcon from './SitemarkIcon';
 
 function Copyright() {
@@ -147,7 +147,7 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Legal
           </Typography>
-          <Link color="text.secondary" variant="body2" href="/Terms.html">
+          <Link color="text.secondary" variant="body2" href="Terms.html">
             Terms
           </Link>
           <Link color="text.secondary" variant="body2" href="#contact">
@@ -172,7 +172,7 @@ export default function Footer() {
           <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography> */}
-          <NavLink color="text.secondary" to="/Terms.html" target='_blank'>
+          <NavLink color="text.secondary" to="Terms.html" target='_blank'>
             Terms of Service
           </NavLink>
           <Copyright />
