@@ -115,13 +115,13 @@ export default function AppAppBar() {
                   </IconButton>
                 </Box>
 
-                <MenuItem>Features</MenuItem>
-                <MenuItem>Testimonials</MenuItem>
-                <MenuItem>Highlights</MenuItem>
-                <MenuItem>Pricing</MenuItem>
-                <MenuItem>FAQ</MenuItem>
-                <MenuItem>Blog</MenuItem>
-                <Divider sx={{ my: 3 }} />
+                <MenuItem><Button onClick={toggleDrawer(false)} variant='text' color='info' size='small' href='#products'>Products</Button></MenuItem>
+                {/* <MenuItem>Testimonials</MenuItem> */}
+                <MenuItem><Button onClick={toggleDrawer(false)} variant='text' color='info' size='small' href='#highlights'>Highlights</Button></MenuItem>
+                <MenuItem><Button onClick={toggleDrawer(false)} variant='text' color='info' size='small' href='#contact'>Contact</Button></MenuItem>
+                <MenuItem><Button sx={{ minWidth: 0 }} onClick={toggleDrawer(false)} variant='text' color='info' size='small' href='#faq'>FAQ</Button></MenuItem>
+                {/* <MenuItem>Blog</MenuItem> */}
+                {/* <Divider sx={{ my: 3 }} />
                 <MenuItem>
                   <Button color="primary" variant="contained" fullWidth>
                     Sign up
@@ -131,7 +131,7 @@ export default function AppAppBar() {
                   <Button color="primary" variant="outlined" fullWidth>
                     Sign in
                   </Button>
-                </MenuItem>
+                </MenuItem> */}
               </Box>
             </Drawer>
           </Box>
